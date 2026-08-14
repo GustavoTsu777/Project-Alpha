@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Perfil e Dados - Project Alpha</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/estilo3.css">
+</head>
+<body class="perfil-e-dados">
+
+<div class="dashboard">
+
+    <header class="topbar">
+        <div class="logo-area">
+            <img src="imagens/logo.png" alt="Project Alpha">
+            <div>
+                <h2>Project Alpha</h2>
+                <span>Painel do Aluno</span>
+            </div>
+        </div>
+
+        <nav>
+            <a href="html/area-do-aluno.html">Área do Aluno</a>
+            <a href="html/perfil-e-dados.html">Perfil</a>
+            <a href="html/dashboard-alunos.html">Agendamentos</a>
+            <a href="/e-commerce">Loja</a>
+            <a href="index.html" class="logout">Sair</a>
+        </nav>
+
+        <div class="user-actions">
+            <button class="themeButton">
+                <i class="fa-solid fa-moon"></i>
+            </button>
+        </div>
+    </header>
+
+    <section class="dashboard-grid">
+        <div class="panel large">
+            <div class="panel-header">
+                <h2><i class="fa-solid fa-user"></i> Meu Perfil</h2>
+            </div>
+            <form class="profile-form">
+                <div class="form-row">
+                    <div class="form-item">
+                        <label for="nome">Nome completo</label>
+                        <input id="nome" type="text" value="Gustavo Santos">
+                    </div>
+                    <div class="form-item">
+                        <label for="email">E-mail</label>
+                        <input id="email" type="email" value="gustavo.santos@example.com">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-item">
+                        <label for="telefone">Telefone</label>
+                        <input id="telefone" type="tel" value="(18) 99999-9999">
+                    </div>
+                    <div class="form-item">
+                        <label for="matricula">Matrícula</label>
+                        <input id="matricula" type="text" value="PA-2026-0482" readonly>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-item">
+                        <label for="plano">Plano</label>
+                        <select id="plano">
+                            <option>Premium</option>
+                            <option>Standard</option>
+                            <option>Essencial</option>
+                        </select>
+                    </div>
+                    <div class="form-item">
+                        <label for="objetivo">Objetivo</label>
+                        <select id="objetivo">
+                            <option>Ganho de Massa</option>
+                            <option>Definição</option>
+                            <option>Manutenção</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-item">
+                        <label for="nascimento">Data de nascimento</label>
+                        <input id="nascimento" type="date" value="2006-12-10">
+                    </div>
+                    <div class="form-item">
+                        <label for="endereco">Endereço</label>
+                        <input id="endereco" type="text" value="Rua exemplo, 999 - Narandiba, SP">
+                    </div>
+                </div>
+                <div class="form-item">
+                    <label for="observacoes">Observações</label>
+                    <textarea id="observacoes">Prefere treinos no fim da tarde e acompanhamento personalizado aos sábados.</textarea>
+                </div>
+                <div class="form-actions">
+                    <button type="button" class="secondary">Cancelar</button>
+                    <button type="submit">Salvar Alterações</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="panel">
+            <div class="panel-header">
+                <h2><i class="fa-solid fa-id-card"></i> Dados de Cadastro</h2>
+            </div>
+            <div class="profile-info-card">
+                <div class="profile-info-header">
+                    <img src="imagens/perfil.png" alt="Aluno">
+                    <h3>Plano Premium</h3>
+                    <span>Matrícula PA-2026-0482</span>
+                    <div class="status">
+                        <span class="online"></span>
+                        Matrícula Ativa
+                    </div>
+                </div>
+                <div class="profile-info-content">
+                    <p><strong>Nome</strong><span>Gustavo Santos</span></p>
+                    <p><strong>E-mail</strong><span>gustavo.santos@example.com</span></p>
+                    <p><strong>Telefone</strong><span>(18) 99999-9999</span></p>
+                    <p><strong>Endereço</strong><span>Narandiba, SP</span></p>
+                    <p><strong>Objetivo</strong><span>Ganho de Massa</span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-dashboard">
+        <img src="imagens/logo.png" alt="Project Alpha">
+        <div>
+            <h3>Project Alpha</h3>
+            <p>Sistema integrado de gestão, acompanhamento físico e e-commerce.</p>
+        </div>
+        <span>© 2026 Project Alpha • Desenvolvido por DevNexus</span>
+    </footer>
+
+</div>
+
+</body>
+</html>

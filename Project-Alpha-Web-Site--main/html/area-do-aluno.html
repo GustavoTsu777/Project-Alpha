@@ -1,0 +1,821 @@
+<!doctype html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Área do Aluno</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../css/estilo3.css">
+	</head>
+    <body class="area-do-aluno">
+
+<div class="dashboard">
+
+    <!-- NAVBAR -->
+
+    <header class="topbar">
+
+        <div class="logo-area">
+
+            <img src="imagens/logo.png" alt="Project Alpha">
+
+            <div>
+
+                <h2>Project Alpha</h2>
+
+                <span>Painel do Aluno</span>
+
+            </div>
+
+        </div>
+
+        <nav>
+
+            <a href="html/area-do-aluno.html">Área do Aluno</a>
+            <a href="html/perfil-e-dados.html">Perfil</a>
+            <a href="html/dashboard-alunos.html">Agendamentos</a>
+            <a href="/e-commerce">Loja</a>
+            <a href="index.html" class="logout">Sair</a>
+
+        </nav>
+
+        <div class="user-actions">
+
+            <button class="themeButton">
+                <i class="fa-solid fa-moon"></i>
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <!-- BOAS VINDAS -->
+
+    <section class="welcome">
+
+        <div class="welcome-info">
+
+            <span><i class="fa-solid fa-hand-wave"></i> Bem-vindo de volta</span>
+
+            <h1>Olá, Gustavo Santos</h1>
+
+            <p>
+
+                Continue sua evolução!
+                Hoje é um ótimo dia para mais um treino.
+
+            </p>
+
+            <div class="quick-buttons">
+
+                <button type="button" onclick="window.location.href='dashboard-alunos.html'">
+
+                    <i class="fa-solid fa-calendar-days"></i>
+
+                    Agendar Avaliação
+
+                </button>
+
+                <button>
+
+                    <i class="fa-solid fa-dumbbell"></i>
+
+                    Ver Treino
+
+                </button>
+
+                <button type="button" onclick="window.location.href='/e-commerce'">
+
+                    <i class="fa-solid fa-cart-shopping"></i>
+
+                    Loja
+
+                </button>
+
+            </div>
+
+        </div>
+
+        
+
+        <div class="profile-card">
+
+            <img src="imagens/perfil.png" alt="Aluno">
+
+            <h3>Plano Premium</h3>
+
+            <span>Matrícula PA-2026-0482</span>
+
+            <div class="status">
+
+                <span class="online"></span>
+
+                Matrícula Ativa
+
+            </div>
+            
+        </div>
+
+    </section>
+
+    <!-- ANIVERSÁRIO -->
+
+<section class="birthday-card">
+
+    <div class="gift">
+
+        <i class="fa-solid fa-gift"></i>
+
+    </div>
+
+    <div>
+
+        <h2>
+
+            <i class="fa-solid fa-cake-candles"></i> Feliz Aniversário, Gustavo!
+
+        </h2>
+
+        <p>
+
+            A Project Alpha deseja muita saúde, sucesso e excelentes treinos!
+
+        </p>
+
+        <p>
+
+            Como presente, disponibilizamos um cupom exclusivo.
+
+        </p>
+
+    </div>
+
+    <div class="coupon">
+
+        <span>Cupom</span>
+
+        <h1>PARABENS20</h1>
+
+        <small>
+
+            20% OFF em qualquer suplemento.
+
+        </small>
+
+        <button>
+
+            Resgatar Cupom
+
+        </button>
+
+    </div>
+
+</section>
+
+    <!-- PRIMEIRA LINHA -->
+
+    <section class="cards-grid">
+
+        <div class="card">
+
+            <h3>
+
+                <i class="fa-solid fa-fire"></i> Sequência de Treinos
+
+            </h3>
+
+            <h1>12 Dias</h1>
+
+            <p>
+
+                Continue treinando hoje para manter sua sequência.
+
+            </p>
+
+            <div class="progress">
+
+                <div style="width:80%"></div>
+
+            </div>
+
+            <small>
+
+                Próxima medalha:
+                15 dias consecutivos
+
+            </small>
+
+        </div>
+
+        <div class="card">
+
+            <h3>
+
+                <i class="fa-solid fa-dumbbell"></i> Objetivo Atual
+
+            </h3>
+
+            <h2>
+
+                Ganho de Massa
+
+            </h2>
+
+            <div class="progress">
+
+                <div style="width:68%"></div>
+
+            </div>
+
+            <span>
+
+                68% concluído
+
+            </span>
+
+        </div>
+
+        <div class="card">
+
+            <h3>
+
+                <i class="fa-solid fa-calendar-days"></i> Próximo Treino
+
+            </h3>
+
+            <h2>
+
+                Costas + Bíceps
+
+            </h2>
+
+            <p>
+
+                Hoje às 19:00
+
+            </p>
+            <br>
+
+            <button>
+
+                Iniciar treino
+
+            </button>
+
+        </div>
+
+        <div class="card">
+
+            <h3>
+
+                <i class="fa-solid fa-heart-pulse"></i> Próxima Avaliação
+
+            </h3>
+
+            <h2>
+
+                18/06/2026
+
+            </h2>
+
+            <p>
+
+                19:30
+
+                <br>
+
+                Professor Kauã Caldeira
+
+            </p>
+
+            <button type="button" onclick="window.location.href='dashboard-2.html'">
+
+                Reagendar
+
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- SEGUNDA LINHA -->
+
+<section class="dashboard-grid">
+
+    <!-- EVOLUÇÃO FÍSICA -->
+
+    <div class="panel large">
+
+        <div class="panel-header">
+
+            <h2>
+
+                <i class="fa-solid fa-chart-line"></i>
+
+                Evolução Física
+
+            </h2>
+
+        </div>
+
+        <div class="stats-grid">
+
+            <div class="stat-card">
+
+                <span>Peso Atual</span>
+
+                <h2>82 Kg</h2>
+
+                <small>-3 Kg nos últimos 2 meses</small>
+
+            </div>
+
+            <div class="stat-card">
+
+                <span>IMC</span>
+
+                <h2>24.1</h2>
+
+                <small>Faixa saudável</small>
+
+            </div>
+
+            <div class="stat-card">
+
+                <span>Gordura Corporal</span>
+
+                <h2>19%</h2>
+
+                <small>-4%</small>
+
+            </div>
+
+            <div class="stat-card">
+
+                <span>Massa Muscular</span>
+
+                <h2>41 Kg</h2>
+
+                <small>+2,3 Kg</small>
+
+            </div>
+
+        </div>
+
+        <div class="progress-box">
+
+            <label>Evolução do Objetivo</label>
+
+            <div class="progress">
+
+                <div style="width:72%"></div>
+
+            </div>
+
+            <small>
+
+                Você está muito próximo de atingir sua meta.
+
+            </small>
+
+        </div>
+
+    </div>
+
+    <!-- IA -->
+
+    <div class="panel">
+
+        <div class="panel-header">
+
+            <h2>
+
+                <i class="fa-solid fa-robot"></i> IA Coach
+
+            </h2>
+
+        </div>
+
+        <div class="coach-box">
+
+            <h3>
+
+                Bom trabalho, Gustavo!
+
+            </h3>
+
+            <p>
+
+                Você treinou Peito há 2 dias.
+
+            </p>
+
+            <p>
+
+                Hoje recomendamos:
+
+            </p>
+
+            <ul>
+
+                <li>✔ Costas</li>
+
+                <li>✔ Bíceps</li>
+
+                <li>✔ 20 minutos de Cardio</li>
+
+            </ul>
+
+            <button>
+
+                Ver treino recomendado
+
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="dashboard-grid">
+
+    <!-- CONQUISTAS -->
+
+    <div class="panel">
+
+        <div class="panel-header">
+
+            <h2>
+
+                <i class="fa-solid fa-trophy"></i> Conquistas
+
+            </h2>
+
+        </div>
+
+        <div class="achievement-grid">
+
+            <div class="achievement">
+
+                <i class="fa-solid fa-fire"></i>
+
+                <h3>30 Dias</h3>
+
+                <span>Treinando</span>
+
+            </div>
+
+            <div class="achievement">
+
+                <i class="fa-solid fa-medal"></i>
+
+                <h3>100</h3>
+
+                <span>Treinos</span>
+
+            </div>
+
+            <div class="achievement">
+
+                <i class="fa-solid fa-heart-pulse"></i>
+
+                <h3>Meta</h3>
+
+                <span>Alcançada</span>
+
+            </div>
+
+            <div class="achievement">
+
+                <i class="fa-solid fa-star"></i>
+
+                <h3>Nível</h3>
+
+                <span>Ouro</span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- BENEFÍCIOS -->
+
+    <div class="panel">
+
+        <div class="panel-header">
+
+            <h2>
+
+                <i class="fa-solid fa-star"></i> Benefícios do Plano
+
+            </h2>
+
+        </div>
+
+        <ul class="benefits">
+
+            <li>Avaliações físicas ilimitadas</li>
+
+            <li>Aulas coletivas inclusas</li>
+
+            <li>Personal Trainer</li>
+
+            <li>Desconto de 15% na Loja</li>
+
+            <li>Convide um amigo gratuitamente</li>
+
+            <li>Prioridade em agendamentos</li>
+
+        </ul>
+
+    </div>
+
+</section>
+
+<!-- QUARTA LINHA -->
+
+<section class="dashboard-grid">
+
+    <!-- AGENDA -->
+
+    <div class="panel large">
+
+        <div class="panel-header">
+
+            <h2>
+
+                <i class="fa-solid fa-calendar-days"></i>
+
+                Agenda
+
+            </h2>
+
+        </div>
+
+        <div class="schedule-list">
+
+            <div class="schedule-item">
+
+                <div class="date-box">
+                    <span>18</span>
+                    <small>JUN</small>
+                </div>
+
+                <div>
+
+                    <h3>Avaliação Física</h3>
+
+                    <p>19:30 • Professor Kauã Caldeira</p>
+
+                </div>
+
+            </div>
+
+            <div class="schedule-item">
+
+                <div class="date-box">
+                    <span>20</span>
+                    <small>JUN</small>
+                </div>
+
+                <div>
+
+                    <h3>Aula de Funcional</h3>
+
+                    <p>18:00 • Sala 02</p>
+
+                </div>
+
+            </div>
+
+            <div class="schedule-item">
+
+                <div class="date-box">
+                    <span>23</span>
+                    <small>JUN</small>
+                </div>
+
+                <div>
+
+                    <h3>Treino com Personal</h3>
+
+                    <p>20:00 • Lucas Oliveira</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- AVISOS -->
+
+    <div class="panel">
+
+        <div class="panel-header">
+
+            <h2>
+
+                <i class="fa-solid fa-bell"></i>
+
+                Avisos
+
+            </h2>
+
+        </div>
+
+        <div class="notice-card">
+
+            <h4><i class="fa-solid fa-dumbbell"></i> Academia aberta normalmente.</h4>
+
+            <p>Funcionamento das 06:00 às 22:00.</p>
+
+        </div>
+
+        <div class="notice-card">
+
+            <h4><i class="fa-solid fa-bottle-droplet"></i> Loja de suplementos.</h4>
+
+            <p>Novas promoções disponíveis esta semana.</p>
+
+        </div>
+
+        <div class="notice-card">
+
+            <h4><i class="fa-solid fa-bullhorn"></i> Novas aulas.</h4>
+
+            <p>Yoga e HIIT já podem ser agendadas.</p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- QUINTA LINHA -->
+
+<section class="dashboard-grid">
+
+    <!-- PRODUTOS -->
+
+    <div class="panel">
+
+        <div class="panel-header">
+
+            <h2>
+
+                <i class="fa-solid fa-cart-shopping"></i>
+
+                Produtos Recomendados
+
+            </h2>
+
+        </div>
+
+        <div class="product-list">
+
+            <div class="product">
+
+                <img src="imagens/produto1.png">
+
+                <div>
+
+                    <h3>Whey Protein</h3>
+
+                    <span>R$ 169,90</span>
+
+                </div>
+
+                <button type="button" onclick="window.location.href='/e-commerce'">Comprar</button>
+
+            </div>
+
+            <div class="product">
+
+                <img src="imagens/produto2.png">
+
+                <div>
+
+                    <h3>Creatina</h3>
+
+                    <span>R$ 89,90</span>
+
+                </div>
+
+                <button type="button" onclick="window.location.href='/e-commerce'">Comprar</button>
+
+            </div>
+
+            <div class="product">
+
+                <img src="imagens/produto3.png">
+
+                <div>
+
+                    <h3>Pré-Treino</h3>
+
+                    <span>R$ 129,90</span>
+
+                </div>
+
+                <button type="button" onclick="window.location.href='/e-commerce'">Comprar</button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- HISTÓRICO -->
+
+    <div class="panel">
+
+        <div class="panel-header">
+
+            <h2>
+
+                <i class="fa-solid fa-clock-rotate-left"></i>
+
+                Histórico
+
+            </h2>
+
+        </div>
+
+        <div class="history">
+
+            <div class="history-item">
+
+                ✔ Avaliação Física realizada
+
+                <small>12/05/2026</small>
+
+            </div>
+
+            <div class="history-item">
+
+                ✔ Plano atualizado
+
+                <small>02/05/2026</small>
+
+            </div>
+
+            <div class="history-item">
+
+                ✔ Compra de Whey Protein
+
+                <small>29/04/2026</small>
+
+            </div>
+
+            <div class="history-item">
+
+                ✔ Renovação do Plano Premium
+
+                <small>01/04/2026</small>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<footer class="footer-dashboard">
+
+    <img src="imagens/logo.png" alt="Project Alpha">
+
+    <div>
+
+        <h3>Project Alpha</h3>
+
+        <p>
+
+            Sistema integrado de gestão, acompanhamento físico e e-commerce.
+
+        </p>
+
+    </div>
+
+    <span>
+
+        © 2026 Project Alpha • Desenvolvido por DevNexus
+
+    </span>
+
+</footer>
+
+</div>
+
+</body>
+</html>
