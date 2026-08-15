@@ -10,7 +10,7 @@
     },
     {
       "source": "/dashboard-agendamentos",
-      "destination": "/htmldashboard-2.html"
+      "destination": "/html/dashboard-2.html"
     },
     {
       "source": "/dashboard",
