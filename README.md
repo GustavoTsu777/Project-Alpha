@@ -205,9 +205,9 @@ Acesse `http://localhost:8000` (ou conforme indicado)
 
 | Rota | Arquivo | Descrição |
 |------|---------|-----------|
-| `html/area-do-aluno.html` | Área pessoal do aluno com boas-vindas e quick actions |
-| `html/perfil-e-dados.html` | Gerenciamento de perfil, dados pessoais e configurações |
-| `html/dashboard-alunos.html` | Dashboard com agendamentos de aulas e avaliações |
+| `X` || `html/area-do-aluno.html` | Área pessoal do aluno com boas-vindas e quick actions |
+| `X` || `html/perfil-e-dados.html` | Gerenciamento de perfil, dados pessoais e configurações |
+| `X` || `html/dashboard-alunos.html` | Dashboard com agendamentos de aulas e avaliações |
 
 ### 👨‍💼 Painel Administrativo
 
@@ -245,7 +245,7 @@ Este projeto foi desenvolvido com os seguintes objetivos:
 - [Guia de Acessibilidade Web](https://www.w3.org/WAI/fundamentals/accessibility-intro/pt-BR)
 - [Documentação Vercel](https://vercel.com/docs)
 
-## � Histórico de Versões
+## 📝 Histórico de Versões
 
 ### v2.0.0 - Atualização Geral de Acessibilidade
 **Data:** 2026-08-15
