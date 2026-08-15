@@ -943,16 +943,16 @@ body{
 
     <div class="brandTitle">
 
-      <a href="index.html">
+      <a href="/">
         <div class="logo-box" aria-hidden="true">  
-  <img src="imagens/Logo222.png" alt="Project Alpha Academia" />  
+  <img src="/html/imagens/Logo222.png" alt="Project Alpha Academia" />  
 </div>  
      </a>   
         <h2><strong>CRIE SUA CONTA E COMECE SUA<br><span class="red">
                     EVOLUÇÃO</span></strong></h2>
     </div>
 
-   <form id="cadastroForm" action="index.html#login">
+   <form id="cadastroForm" action="/#login">
 
   <div class="card">
     <div class="sideHead">
@@ -1053,7 +1053,7 @@ document.getElementById("cadastroForm").addEventListener("submit", function(e) {
 
     if (this.checkValidity()) {
         alert("Cadastro realizado com sucesso!");
-        window.location.href = "index.html#login";
+        window.location.href = "/#login";
     } else {
         this.reportValidity();
     }
