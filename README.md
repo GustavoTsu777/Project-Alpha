@@ -205,9 +205,9 @@ Acesse `http://localhost:8000` (ou conforme indicado)
 
 | Rota | Arquivo | Descrição |
 |------|---------|-----------|
-| `X` || `html/area-do-aluno.html` | Área pessoal do aluno com boas-vindas e quick actions |
-| `X` || `html/perfil-e-dados.html` | Gerenciamento de perfil, dados pessoais e configurações |
-| `X` || `html/dashboard-alunos.html` | Dashboard com agendamentos de aulas e avaliações |
+| `X` | `html/area-do-aluno.html` | Área pessoal do aluno com boas-vindas e quick actions |
+| `X` | `html/perfil-e-dados.html` | Gerenciamento de perfil, dados pessoais e configurações |
+| `X` | `html/dashboard-alunos.html` | Dashboard com agendamentos de aulas e avaliações |
 
 ### 👨‍💼 Painel Administrativo
 
