@@ -152,7 +152,7 @@ Demonstrar a aplicação prática de conceitos fundamentais de desenvolvimento w
 
 ---
 
-## �👨‍💻 Autor
+## 👨‍💻 Autor
 
 **Gustavo Santos**  
 Acadêmico de Análise e Desenvolvimento de Sistemas (ADS)
