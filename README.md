@@ -134,7 +134,7 @@ Demonstrar a aplicação prática de conceitos fundamentais de desenvolvimento w
 - [Guia de Acessibilidade Web](https://www.w3.org/WAI/fundamentals/accessibility-intro/pt-BR)
 - [Documentação Vercel](https://vercel.com/docs)
 
-## � Histórico de Versões
+## 📝 Histórico de Versões
 
 ### v2.0.0 - Atualização Geral de Acessibilidade
 **Data:** 2026-08-15
