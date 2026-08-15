@@ -97,8 +97,6 @@ Este projeto foi desenvolvido como trabalho acadêmico contemplando conceitos fu
 
 ### 📝 Sistema de Cadastro
 - Formulário completo e validado
-- Integração com banco de dados
-- Confirmação de e-mail
 - Redirecionamento automático para login
 
 ### ♿ Acessibilidade Avançada (v2.0.0)
@@ -285,7 +283,7 @@ Este projeto foi desenvolvido em parceria com a **DevNexus**, consultoria especi
 
 **Gustavo Santos**  
 📚 Acadêmico de Análise e Desenvolvimento de Sistemas (ADS)  
-💻 Especialidade: Desenvolvimento Web Full Stack, Acessibilidade Digital
+💻 Especialidade: Desenvolvedor Front-End, UX (User Experience).
 
 ## 📞 Contato e Suporte
 
