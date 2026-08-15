@@ -43,27 +43,42 @@ O projeto contempla conceitos fundamentais de desenvolvimento web moderno, inclu
 ## 📁 Estrutura do Projeto
 
 ```
-Project-Alpha-Web-Site/
-├── index.html                 # Página inicial
-├── README.md                  # Este arquivo
-├── vercel.json               # Configuração de deployment
+Project-Alpha-Website/
 │
-├── css/
-│   ├── estilo.css           # Estilos principais
-│   ├── estilo2.css          # Estilos adicionais
-│   └── estilo3.css          # Estilos complementares
+├── index.html                       # Página inicial e landing page
+├── README.md                        # Documentação do projeto
+├── vercel.json                      # Configuração de rotas do Vercel
 │
-└── html/
-    ├── area-do-aluno.html           # Área do aluno/cliente
-    ├── dashboard-alunos.html        # Dashboard administrativo
-    ├── dashboard-2.html             # Dashboard alternativo
-    ├── perfil-e-dados.html          # Perfil e dados do usuário
-    ├── lojaVTeste.html              # Loja virtual de suplementos
-    ├── teste-cadastro.html          # Página de cadastro
-    ├── Sitezin.html                 # Página adicional
-    │
-    └── imagens/                     # Recursos visuais
-        └── [imagens do projeto]
+├── 📁 css/                          # Folhas de estilo
+│   ├── estilo.css                   # Estilos da página inicial
+│   ├── estilo2.css                  # Estilos da loja virtual
+│   └── estilo3.css                  # Estilos dos dashboards e áreas do aluno
+│
+├── 📁 html/                         # Páginas HTML (diretório de rotas)
+│   ├── area-do-aluno.html           # Portal do aluno - área pessoal e boas-vindas
+│   ├── dashboard-alunos.html        # Dashboard de agendamentos e avaliações
+│   ├── dashboard-2.html             # Dashboard administrativo (personal/instrutores)
+│   ├── perfil-e-dados.html          # Gerenciamento de perfil e dados pessoais
+│   ├── lojaVTeste.html              # Loja virtual de suplementos e produtos
+│   ├── teste-cadastro.html          # Formulário de registro de novos clientes
+│   ├── Sitezin.html                 # Painel de gestão de clientes
+│   │
+│   └── 📁 imagens/                  # Recursos visuais e mídia
+│       ├── logo.png                 # Logo principal
+│       ├── Logo-nav.png             # Logo para navegação
+│       ├── Logo222.png              # Variação da logo
+│       ├── perfil.png               # Ícone de perfil padrão
+│       ├── Faviicon-alpha.png       # Favicon do projeto
+│       ├── favicon.ico              # Favicon (formato ico)
+│       ├── Acade3.jpg               # Imagem de contexto (academia)
+│       ├── Devnexus.png             # Logo parceira
+│       ├── produto1.png até produto10.png  # Imagens de produtos da loja
+│       └── Seta_ativa.png           # Ícone de seta ativa
+│
+├── 📁 js/                           # Scripts JavaScript
+│   └── acessibilidade.js            # Sistema de acessibilidade (fonte, daltonismo, LIBRAS)
+│
+└── 📁 .git/                         # Controle de versão Git
 ```
 
 ## 🚀 Como Executar
@@ -119,7 +134,25 @@ Demonstrar a aplicação prática de conceitos fundamentais de desenvolvimento w
 - [Guia de Acessibilidade Web](https://www.w3.org/WAI/fundamentals/accessibility-intro/pt-BR)
 - [Documentação Vercel](https://vercel.com/docs)
 
-## 👨‍💻 Autor
+## � Histórico de Versões
+
+### v2.0.0 - Atualização Geral de Acessibilidade
+**Data:** 2026-08-15
+
+#### 🚀 Adicionado
+- **Menu Flutuante de Acessibilidade (JS Global):** Painel interativo fixo para controle de tamanho de fonte e daltonismo
+- **Filtros CSS de Daltonismo:** Classes no `<body>` que aplicam matrizes de cores SVG para Protanopia, Deuteranopia e Tritanopia
+- **Modo Alto Contraste:** Tema escuro de alto contraste (`.alto-contraste`) injetado via CSS
+- **Widget VLibras:** Integração oficial da ferramenta de tradução em LIBRAS
+
+#### 🔧 Modificado
+- **Árvore do DOM & Foco (Tabindex):** Correção da ordem sequencial de navegação por teclado em elementos interativos e painéis (Dashboards)
+- **Semântica ARIA & Atributos:** Inclusão de `aria-label`, `aria-expanded` e `aria-hidden` em botões de ícone e elementos gráficos
+- **Descrições de Mídia:** Inclusão de atributos `alt` descritivos ou vazios (decorativos) em todas as imagens do diretório `html/imagens`
+
+---
+
+## �👨‍💻 Autor
 
 **Gustavo Santos**  
 Acadêmico de Análise e Desenvolvimento de Sistemas (ADS)
