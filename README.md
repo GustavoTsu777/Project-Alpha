@@ -136,6 +136,6 @@ Este projeto é fornecido como material educacional. Todos os direitos reservado
 
 <div align="center">
   
-**Desenvolvido com ❤️ para fins acadêmicos**
+**Desenvolvido para fins acadêmicos**
 
 </div>
